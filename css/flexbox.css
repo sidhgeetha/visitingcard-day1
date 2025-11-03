@@ -22,7 +22,7 @@ display:flex;
 flex:4;
 border:2px solid rgb(51, 126, 28);
 flex-direction: row;
-gap:1em;
+gap:.5em;
 color: white;
 }
 

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 200px;
+  /* padding-left: 200px; */
   
 }
 .card-container{
@@ -65,14 +65,19 @@ ul li {
 .fa-location-dot {
   padding-right: 18px;
 }
-.col-sm-4 {
-  /* height: 10.5rem; */
+
+
+.logo img {
+  max-height: 145px;
+  max-width: 135px;
+
+ 
 }
-img {
-  height: 10.5rem;
-  width: 10rem;
-  padding-top: 7px;
-  padding-right: 40px;
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bottom-container {
   background-color: black;
@@ -112,5 +117,16 @@ img {
     flex-direction:column;
   }
 }
+
+.back-card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+   width: 400px;
+  height: 230px;
+  border-style: none;
+  background-color: #ffffff;
+}
+
 
 
