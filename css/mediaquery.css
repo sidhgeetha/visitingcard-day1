@@ -1,0 +1,93 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  border: 2px solid;
+  height: 50vh;
+}
+
+body{
+    background-color: aqua;
+}
+h1{
+    max-width: 100%;
+    font-size: 1rem;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+.header {
+  background-color: bisque;
+  border: 1px solid;
+  height: 25%;
+  padding:10px;
+}
+
+.div1 {
+  flex: 2;
+  border: 1px solid red;
+}
+
+.div2 {
+  flex: 2;
+  border: 1px solid red;
+}
+
+.div3 {
+  flex: 2;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color: rgb(254, 2, 2);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(216, 2, 254);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: rgb(2, 254, 136);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section{
+    flex-direction: column;
+  }
+}
+@media header and (max-width: 600px) {
+  .section{
+    flex-direction: column;
+  }
+}
+
+@media header and (max-width: 450px) {
+  .section{
+    flex-direction: column;
+  }
+}
+
+
+@media h1 and (max-width: 600px) {
+  .section{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header h1{
+    font-size: .6rem;
+  }
+}

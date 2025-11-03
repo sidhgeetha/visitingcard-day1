@@ -1,0 +1,50 @@
+
+body,
+.container{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+display:flex;
+flex:1;
+border:2px solid rgb(214, 21, 21);
+flex-direction: row;
+color:white;
+background-color: blueviolet;
+
+
+}
+.section{
+display:flex;
+flex:4;
+border:2px solid rgb(51, 126, 28);
+flex-direction: row;
+gap:1em;
+color: white;
+}
+
+.menu{
+flex:1;
+border: 1px solid white;
+background-color: blanchedalmond;
+}
+
+.content{
+flex:3;
+border: 1px solid white;
+background-color: aquamarine;
+}
+
+
+.footer{
+display:flex;
+flex: 1;
+color:white;
+border: 2px solid yellowgreen;
+background-color: chocolate;
+}
+
+
