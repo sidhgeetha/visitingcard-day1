@@ -11,13 +11,17 @@
 .card-container{
   display: flex; 
   flex-direction: row; 
-  gap:2rem
+  gap:2rem;
+  position:relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
 }
 
 .card {
   width: 400px;
   height: 230px;
-  border-style: none;
+  
+ 
 }
 
 .top-container {
@@ -25,9 +29,7 @@
   flex-direction: row;
   height: 170px;
 }
-.col-sm-8 {
-  /* height: 10rem; */
-}
+
 .profile-top {
   padding-bottom: 8px;
   padding-top: 12px;
@@ -71,14 +73,15 @@ ul li {
   max-height: 145px;
   max-width: 135px;
 
- 
 }
+
 
 .right-section {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .bottom-container {
   background-color: black;
   height: 57px;
@@ -126,7 +129,18 @@ ul li {
   height: 230px;
   border-style: none;
   background-color: #ffffff;
+   position: absolute;
+   backface-visibility: hidden; 
+  transform: rotateY(180deg);
 }
 
 
+.main-container:hover > .card-container{
+  cursor:pointer;
+  transform: rotateY(180deg);
 
+}
+/* .card-container:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+} */
